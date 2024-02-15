@@ -3,7 +3,7 @@ import { Link } from 'solito/link'
 import { H1, H3, P, Text, TextLink } from 'app/design/typography'
 import { View } from 'app/design/view'
 import { TextInput } from 'app/design/components/TextInput'
-import { Button } from 'app/design/components/Button'
+import { Button } from 'app/design/components/Buttona'
 import { Form } from 'app/design/components/Form'
 
 export const LoginScreen = () => {
