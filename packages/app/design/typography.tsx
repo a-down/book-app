@@ -8,13 +8,31 @@ export const Text = styled(NativeText)
 /**
  * You can use this pattern to create components with default styles
  */
-export const P = styled(NativeText, 'text-base text-black my-4')
+export const P = styled(NativeText, 'text-base text-black')
 
 /**
  * Components can have defaultProps and styles
  */
-export const H1 = styled(NativeText, 'text-3xl font-extrabold my-4')
+export const H1 = styled(NativeText, 'text-3xl font-extrabold')
 H1.defaultProps = {
+  accessibilityLevel: 1,
+  accessibilityRole: 'header',
+}
+
+export const H2 = styled(NativeText, 'text-2xl font-extrabold')
+H2.defaultProps = {
+  accessibilityLevel: 1,
+  accessibilityRole: 'header',
+}
+
+export const H3 = styled(NativeText, 'text-xl font-extrabold')
+H3.defaultProps = {
+  accessibilityLevel: 1,
+  accessibilityRole: 'header',
+}
+
+export const H4 = styled(NativeText, 'text-lg font-extrabold')
+H4.defaultProps = {
   accessibilityLevel: 1,
   accessibilityRole: 'header',
 }
@@ -29,7 +47,7 @@ export interface AProps extends ComponentProps<typeof Text> {
 
 export const A = forwardRef<NativeText, StyledProps<AProps>>(function A(
   { className = '', href, target, ...props },
-  ref
+  ref,
 ) {
   const nativeAProps = Platform.select<Partial<AProps>>({
     web: {
