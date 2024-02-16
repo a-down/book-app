@@ -61,8 +61,8 @@ const CurrentlyReadingCard = () => {
 
 const ViewBookshelfLink = () => {
   return (
-    <Link href="#">
-      <Row className="justify-center gap-2">
+    <Link href="#" className="">
+      <Row className="justify-center gap-2 hover:opacity-60 active:scale-[99%]">
         <BookIcon />
         <H4 className="font-semibold">View your Bookshelf</H4>
         <ArrowRightIcon />
