@@ -26,5 +26,8 @@
     "**/expo-router",
     "**/expo-router/**"
   ],
-  "packageManager": "yarn@3.4.1"
+  "packageManager": "yarn@3.4.1",
+  "dependencies": {
+    "feather-icons-react": "^0.7.0"
+  }
 }

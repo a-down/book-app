@@ -5978,6 +5978,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"feather-icons-react@npm:^0.7.0":
+  version: 0.7.0
+  resolution: "feather-icons-react@npm:0.7.0"
+  peerDependencies:
+    react: ^16.8.4 || ^17.0.0 || ^18.0.0
+    react-dom: ^16.8.4 || ^17.0.0 || ^18.0.0
+  checksum: 094b6f70ee5fa84b18d594f6836d3c16e5bf125dd1bf6a83c07a617af266869cf4d8c7f6c8d39948ad3edcf141c0407088ade03fa1d443c3171b06ce58ca3e6f
+  languageName: node
+  linkType: hard
+
 "fetch-retry@npm:^4.1.1":
   version: 4.1.1
   resolution: "fetch-retry@npm:4.1.1"
@@ -10994,6 +11004,7 @@ __metadata:
     "@types/react": ^18.2.21
     "@types/react-native": ^0.72.2
     eslint: ^8.21.0
+    feather-icons-react: ^0.7.0
     prettier: ^3.0.3
     prettier-plugin-tailwindcss: ^0.5.4
     turbo: ^1.4.2
