@@ -1,4 +1,5 @@
-import { ScrollView as NativeScrollView, View, Platform } from 'react-native'
+import { ScrollView as NativeScrollView, Platform } from 'react-native'
+import { View } from './view'
 import { styled } from 'nativewind'
 
 export const Row = styled(View, 'flex flex-row items-center')
